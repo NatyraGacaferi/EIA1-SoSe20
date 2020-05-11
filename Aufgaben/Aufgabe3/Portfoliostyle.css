@@ -55,14 +55,14 @@ div a.activePage2{
 
 .icon1{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 49.5%;
     transform: translate(-50%, -50%);
 }
 
 .icon2{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 52.5%;
     transform: translate(-50%, -50%);
 }
@@ -93,7 +93,7 @@ div a.activePage2{
     position: relative;
     bottom: 600px;
     left: 72px;
-
+    text-align:left;
 }
 
 .überschrift1{
@@ -159,7 +159,7 @@ div a.activePage2{
 }
 
 .circle{
-    position: relative;
+    position: static;
     display: block;
     margin: -35px auto;
     width: 700px;
@@ -212,7 +212,7 @@ div a.activePage2{
     left: -263px;
 }
 
-.absenden {
+.absenden{
     font-size: 9pt;
     color: white;
     background: lightgray;
