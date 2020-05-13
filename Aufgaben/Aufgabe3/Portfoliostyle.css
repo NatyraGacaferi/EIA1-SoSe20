@@ -53,22 +53,11 @@ div a.activePage2{
     font-weight: bolder;
 }
 
-#icon1{
-    position: absolute;
-    top: 50%;
-    margin-left: 1.5%;
-    transform: translate(-50%, -50%);
-}
-
 #icon2{
-    position: absolute;
+    position: fixed;
     top: 50%;
-    margin-left: 4%;
+    margin-left: 1.4%;
     transform: translate(-50%, -50%);
-}
-
-#icon1:hover{
-    opacity: .5;
 }
 
 #icon2:hover{
