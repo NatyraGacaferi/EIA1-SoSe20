@@ -53,15 +53,15 @@ div a.activePage2{
     font-weight: bolder;
 }
 
-#icon2{
-    position: fixed;
-    top: 50%;
-    margin-left: 1.4%;
-    transform: translate(-50%, -50%);
+.social{
+    position: absolute;
+    top: 270px;
+    margin-left: 49.6%;
+    z-index: 9999;
 }
 
-#icon2:hover{
-    opacity: .5;
+.social:hover{
+    opacity: 0.5;
 }
 
 .lorem {
