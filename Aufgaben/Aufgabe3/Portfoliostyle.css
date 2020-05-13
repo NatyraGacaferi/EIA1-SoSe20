@@ -55,14 +55,14 @@ div a.activePage2{
 
 .icon1{
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 49.5%;
     transform: translate(-50%, -50%);
 }
 
 .icon2{
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 52.5%;
     transform: translate(-50%, -50%);
 }
