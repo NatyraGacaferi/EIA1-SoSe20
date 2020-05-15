@@ -3,24 +3,60 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-h1{
-    font-size: 150px;
-    letter-spacing: -17px;
+
+
+.container{
     position: relative;
-    bottom: 410px;
+    color: white;
+    margin: 0 auto;
+    width: 700px;
 }
 
+.h1{
+    font-size: 100pt;
+    color: white;
+    letter-spacing: -10px;
+    font-weight: bolder;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.h2{
+    font-size: 100pt;
+    color: white;
+    letter-spacing: -10px;
+    font-weight: bolder;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+}
+.h3{
+    font-size: 100pt;
+    color: white;
+    letter-spacing: -10px;
+    font-weight: bolder;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+}
 
-.navi{
+.navbar{
     display: inline-block;
-    background-color: #000000;
+    background: black;
     padding: 5px 8px 5px 5px;
     position: fixed;
-    right: 0;
     top: 0;
+    right: 0;
     border-radius: 10px 10px 10px 10px;
     z-index: 9999;
+
 }
+    
 .navi1{
     border-right: solid 1px white;
 }
@@ -53,135 +89,58 @@ div a.activePage2{
     font-weight: bolder;
 }
 
-.social{
+.icon {
     position: absolute;
-    top: 270px;
-    margin-left: 49.6%;
-    z-index: 9999;
+    top: 100%;
+    left: 41.5%;
+    transform: translate(-50%, -50%);
 }
 
-.social:hover{
+.icon:hover{
     opacity: 0.5;
 }
 
-.lorem {
-    letter-spacing: -4px;
-    margin: auto;
-    width: 15%;
-    border: 3px;
-    padding: 10px;
-    font-size: 23px;
+.name {
+    font-size: 24pt;
+    color: white;
+    letter-spacing: -3px;
+    font-weight: bolder;
+    position: absolute;
+    top: 47%;
+    left: 67%;
+    transform: translate(-50%, -50%);
     text-align: left;
-    position: relative;
-    bottom: 570px;
-    left: 100px;
-    text-align:left;
 }
 
 .text{
-    margin: auto;
-    width: 15%;
-    border: 3px;
-    padding: 10px;
-    font-size: 10px;
+    font-size: 10pt;
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    transform: translate(-50%, -50%);
     text-align: left;
-    position: relative;
-    bottom: 625px;
-    left: 100px;
-    text-align:left;
 }
 
-.überschrift1{
-    color: #ffc71e;
-    font-size: 20px;
+.circle {
     position: relative;
-    bottom: -20px;
-    right: 360px;
-    
-}
-
-.überschrift2{
-    color: #ffc71e;
-    font-size: 20px;
-    position: relative;
-    bottom: -20px;
-    margin-left: -732px;
-    
-}
-
-.überschrift3{
-    color: #ffc71e;
-    font-size: 20px;
-    position: relative;
-    bottom: -20px;
-    margin-left: -740px;
-    margin-right: -22px;
-    
-}
-
-.überschrift4{
-    color: #ffc71e;
-    font-size: 20px;
-    position: relative;
-    bottom: -20px;
-    margin-left: -678px;
-    margin-right: -50px;
-    
-}
-
-.überschrift5{
-    color: #ffc71e;
-    font-size: 20px;
-    position: relative;
-    bottom: -20px;
-    margin-left: -718px;
-    margin-right: -60px;
-    
-}
-
-
-.foto{
-    color: #ffc71e;
-    font-size: 20px;
-    position: relative;
-    bottom: 480px;
-    right: 306px;
-}
-
-.foto1 {
-    position: relative;
-    bottom: 470px;
-}
-
-.circle{
-    position: static;
-    display: block;
-    margin: -35px auto;
+    display: inline-block;
+    margin: -50px;
     width: 700px;
-}
-
-.kontakt{
-    color: #ffc71e;
-    font-size: 20px;
-    position: relative;
-    bottom: 550px;
-    right: 300px;
 }
 
 .activePage1{
     border-right: solid 1px white;
 }
 
-.Kontakt{
-    color: #ffc71e;
+.Kontakt {
+    color:  #ffc71e;
     font-weight: bolder;
-    position: relative;
-    right: 385px;
-    margin-top: -500px;
+    margin-left: -770px;
 }
 
-.formular{
-    background: lightgrey;
+.formular {
+    background: lightgray;
     font-size: 9pt;
     color: white;
     width: 200px;
@@ -190,32 +149,27 @@ div a.activePage2{
     text-align: left;
 }
 
-.formular2{
-    background: lightgrey;
+.formular2 {
+    background: lightgray;
     font-size: 9pt;
     color: white;
-    width: 200px;
-    padding: 5px 5px 5px 5px;
+    width: 350px;
+    padding: 5px 5px 20px 5px;
     margin-left: 200px;
     text-align: left;
 }
 
-.Datenschutz{
+.Datenschutz {
     font-size: 9pt;
     color: lightgray;
-    position: relative;
-    left: -263px;
+    margin-left: -535px;
 }
 
-.absenden{
+.absenden {
     font-size: 9pt;
     color: white;
     background: lightgray;
     width: 55px;
     padding: 5px 5px 5px 5px;
     margin-left: 200px;
-}
-
-.fotoich{
-    margin-top: -500px;
 }
