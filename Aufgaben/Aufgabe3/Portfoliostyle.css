@@ -121,18 +121,6 @@ div a.activePage2{
     transform: translate(-50%, -50%);
     text-align: left;
 }
-
-.circle {
-    position: relative;
-    display: inline-block;
-    margin: -50px;
-    width: 700px;
-}
-
-.activePage1{
-    border-right: solid 1px white;
-}
-
 .Kontakt {
     color:  #ffc71e;
     font-weight: bolder;
@@ -173,3 +161,15 @@ div a.activePage2{
     padding: 5px 5px 5px 5px;
     margin-left: 200px;
 }
+
+.circle {
+    position: relative;
+    display: inline-block;
+    margin: -50px;
+    width: 700px;
+}
+
+.activePage1{
+    border-right: solid 1px white;
+}
+
