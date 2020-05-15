@@ -17,10 +17,10 @@ body{
 .aufgabe1{
     border: 1px solid;
     text-align: center;
-    width: 80px;
+    width: 50px;
     display: block;
     padding: 15px 20px;
-    font-size: 15px;
+    font-size: 10px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -35,7 +35,7 @@ body{
 }
 
 .aufgabe1:hover {
-    background: url("Station1/bg.png");
+    background-color: #8df5bc;
 }
 
 .aufgabe1:active {
@@ -47,10 +47,10 @@ body{
 .aufgabe2{
     border: 1px solid;
     text-align: center;
-    width: 80px;
+    width: 50px;
     display: block;
     padding: 15px 20px;
-    font-size: 15px;
+    font-size: 10px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -65,7 +65,7 @@ body{
 }
 
 .aufgabe2:hover {
-    background: url("Station1/bg.png");
+    background-color: #8df5bc;
 }
 
 .aufgabe2:active {
@@ -77,10 +77,10 @@ body{
 .aufgabe3{
     border: 1px solid;
     text-align: center;
-    width: 80px;
+    width: 50px;
     display: block;
     padding: 15px 20px;
-    font-size: 15px;
+    font-size: 10px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -95,7 +95,7 @@ body{
 }
 
 .aufgabe3:hover {
-    background: url("Station1/bg.png");
+    background-color: #8df5bc;
 }
 
 .aufgabe3:active {
@@ -107,10 +107,10 @@ body{
 .aufgabe4{
     border: 1px solid;
     text-align: center;
-    width: 80px;
+    width: 50px;
     display: block;
     padding: 15px 20px;
-    font-size: 15px;
+    font-size: 10px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -125,7 +125,7 @@ body{
 }
 
 .aufgabe4:hover {
-    background: url("Station1/bg.png");
+    background-color: #8df5bc;
 }
 
 .aufgabe4:active {
