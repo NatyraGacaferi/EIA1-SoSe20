@@ -1,0 +1,135 @@
+body{
+    font-family: Helvetica;
+	font-size: small;
+	background: #E7FEF6;
+}
+
+.Links{
+    display: left;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 0px;
+}
+
+.aufgabe1{
+    border: 1px solid;
+    text-align: center;
+    width: 80px;
+    display: block;
+    padding: 15px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #40d8bd;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #6f9ae9;
+    margin: 4px 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.aufgabe1:hover {
+    background: url("Station1/bg.png");
+}
+
+.aufgabe1:active {
+  background: url("Station1/bg.png");
+  box-shadow: 0 5px #40d8bd;
+  transform: translateY(4px);
+}
+
+.aufgabe2{
+    border: 1px solid;
+    text-align: center;
+    width: 80px;
+    display: block;
+    padding: 15px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #40d8bd;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #6f9ae9;
+    margin: 4px 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.aufgabe2:hover {
+    background: url("Station1/bg.png");
+}
+
+.aufgabe2:active {
+  background: url("Station1/bg.png");
+  box-shadow: 0 5px #40d8bd;
+  transform: translateY(4px);
+}
+
+.aufgabe3{
+    border: 1px solid;
+    text-align: center;
+    width: 80px;
+    display: block;
+    padding: 15px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #40d8bd;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #6f9ae9;
+    margin: 4px 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.aufgabe3:hover {
+    background: url("Station1/bg.png");
+}
+
+.aufgabe3:active {
+  background: url("Station1/bg.png");
+  box-shadow: 0 5px #40d8bd;
+  transform: translateY(4px);
+}
+
+.aufgabe4{
+    border: 1px solid;
+    text-align: center;
+    width: 80px;
+    display: block;
+    padding: 15px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #40d8bd;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #6f9ae9;
+    margin: 4px 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.aufgabe4:hover {
+    background: url("Station1/bg.png");
+}
+
+.aufgabe4:active {
+  background: url("Station1/bg.png");
+  box-shadow: 0 5px #40d8bd;
+  transform: translateY(4px);
+}
