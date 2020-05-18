@@ -122,44 +122,49 @@ div a.activePage2{
     text-align: left;
 }
 .Kontakt {
-    color:  #ffc71e;
+    color: #ffc71e;
     font-weight: bolder;
-    margin-left: -770px;
+    margin-left: -550px;
 }
 
-.formular {
-    background: lightgray;
+#Vorname, #Nachname, #Email {
+    background-color: lightgray;
     font-size: 9pt;
-    color: white;
     width: 200px;
     padding: 5px 5px 5px 5px;
-    margin-left: 200px;
-    text-align: left;
+    margin-left: -420px;
 }
 
-.formular2 {
-    background: lightgray;
+#Nachricht {
+    background-color: lightgray;
     font-size: 9pt;
-    color: white;
     width: 350px;
     padding: 5px 5px 20px 5px;
-    margin-left: 200px;
-    text-align: left;
+    margin-left: -273px;
+}
+
+#absenden {
+    background-color: lightgray;
+    color: white;
+    font-size: 9pt;
+    width: 60px;
+    padding: 5px 5px 5px 5px;
+    margin-left: -573px;
+}
+
+::placeholder {
+    color: white;
 }
 
 .Datenschutz {
     font-size: 9pt;
-    color: lightgray;
-    margin-left: -535px;
+    color: rgb(156, 154, 154);
+    margin-left: -315px;
 }
 
-.absenden {
-    font-size: 9pt;
-    color: white;
-    background: lightgray;
-    width: 55px;
-    padding: 5px 5px 5px 5px;
-    margin-left: 200px;
+input {
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 .circle {
