@@ -304,7 +304,7 @@ body{
   transform: translateY(4px);
 }
 
-.flow1{
+.flows{
     border: 1px solid;
     text-align: center;
     width: 50px;
@@ -324,11 +324,11 @@ body{
     font-family: Arial, Helvetica, sans-serif
 }
 
-.flow1:hover {
+.flows:hover {
     background-color: #8df5bc;
 }
 
-.flow1:active {
+.flows:active {
   box-shadow: 0 5px #40d8bd;
   transform: translateY(4px);
 }
