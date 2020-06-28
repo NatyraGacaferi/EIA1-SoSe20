@@ -44,6 +44,8 @@ function newElement() {
             var div = this.parentElement;
             div.style.display = "none";
         };
+        var count = document.querySelector("#count");
+        count.innerHTML = liste.length;
     }
 }
 //# sourceMappingURL=scripttodo.js.map

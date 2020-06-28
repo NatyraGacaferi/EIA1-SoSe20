@@ -8,6 +8,7 @@ for (i = 0; i < liste.length; i++) {
   liste[i].appendChild(span);
 }
 
+
 var close = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < close.length; i++) {
@@ -50,5 +51,7 @@ function newElement() {
       var div = this.parentElement;
       div.style.display = "none";
     };
+    var count = document.querySelector("#count");
+    count.innerHTML = liste.length;
   }
 }
