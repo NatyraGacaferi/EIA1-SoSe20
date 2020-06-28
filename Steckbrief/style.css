@@ -274,3 +274,32 @@ body{
   box-shadow: 0 5px #40d8bd;
   transform: translateY(4px);
 }
+
+.aufgabe9{
+    border: 1px solid;
+    text-align: center;
+    width: 50px;
+    display: block;
+    padding: 15px 20px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #40d8bd;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #6f9ae9;
+    margin: 4px 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.aufgabe9:hover {
+    background-color: #8df5bc;
+}
+
+.aufgabe9:active {
+  box-shadow: 0 5px #40d8bd;
+  transform: translateY(4px);
+}
